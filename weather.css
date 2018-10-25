@@ -1,0 +1,112 @@
+body {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    background: rgb(105, 134, 67);
+    font-size: 10px;
+    color: #fff;    
+}
+
+.header-footer {
+    width: 75%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.l-wrap {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.wi {
+    font-size: 20px;
+} 
+
+.citynames {
+    list-style: none;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    background: rgb(136, 177, 231);
+    padding: 10px;
+    width: 100%;
+    font-size: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.citynames li {
+    margin: 0;
+    padding-top: 20px;  
+    border: 1.5px solid white;
+    display: inline-block;
+    font-size: 20px;
+    height: 100px;
+    /* width: 50%; */
+}
+
+li:hover {
+    border: 2px solid white;
+    opacity: 0.5;
+}
+
+.bg-blue {
+    background: rgb(136, 177, 231);
+    width: 50%;
+}
+
+.bg-aqua {
+    background: rgb(76, 182, 182);
+    width: 25%;
+}
+
+.bg-purple {
+    background: rgb(156, 64, 156);
+    width: 25%;
+    vertical-align: top;
+}
+
+.bg-red {
+    background: rgb(194, 64, 64);
+    width: 25%;
+}
+
+.bg-orange {
+    background: rgb(206, 150, 47);
+    width: 25%;
+}
+
+.bg-yellow {
+    background: rgb(172, 172, 48);
+    width: 25%;
+    vertical-align: top;
+}
+
+.bg-grass {
+    background: rgb(110, 189, 110);
+    width: 25%;
+}
+
+.bg-grey {
+    background: rgb(148, 146, 146);
+    width: 33.333%;
+    vertical-align: top;
+}
+
+.bg-pink {
+    background: rgb(145, 64, 77);
+    width: 33.333%;   
+}
+
+.bg-green {
+    background: rgb(42, 116, 42);
+    width: 33.333%;
+    vertical-align: top;
+}
+
+.bg-violet {
+    background: rgb(153, 70, 153);
+    width: 100%;
+}
